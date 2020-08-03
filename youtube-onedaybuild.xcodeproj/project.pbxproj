@@ -17,6 +17,8 @@
 		E18AA29A24D6FD3F0032D69B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18AA29924D6FD3F0032D69B /* Video.swift */; };
 		E18AA29C24D6FD7E0032D69B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18AA29B24D6FD7E0032D69B /* Model.swift */; };
 		E18AA29E24D7122A0032D69B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18AA29D24D7122A0032D69B /* Response.swift */; };
+		E18AA2A024D744460032D69B /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18AA29F24D744460032D69B /* VideoTableViewCell.swift */; };
+		E1DC288124D84A5A00EDE7C1 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC288024D84A5A00EDE7C1 /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		E18AA29924D6FD3F0032D69B /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		E18AA29B24D6FD7E0032D69B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E18AA29D24D7122A0032D69B /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		E18AA29F24D744460032D69B /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		E1DC288024D84A5A00EDE7C1 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +70,51 @@
 			children = (
 				E18AA28324D6EEF10032D69B /* AppDelegate.swift */,
 				E18AA28524D6EEF10032D69B /* SceneDelegate.swift */,
-				E18AA28724D6EEF10032D69B /* ViewController.swift */,
+				E18AA2A424D744830032D69B /* Helpers */,
+				E18AA2A324D744620032D69B /* Models */,
+				E18AA2A224D7445C0032D69B /* Views */,
+				E18AA2A124D744520032D69B /* View Conrtrollers */,
 				E18AA28924D6EEF10032D69B /* Main.storyboard */,
 				E18AA28C24D6EEF30032D69B /* Assets.xcassets */,
 				E18AA28E24D6EEF30032D69B /* LaunchScreen.storyboard */,
 				E18AA29124D6EEF30032D69B /* Info.plist */,
-				E18AA29724D6FB320032D69B /* Constants.swift */,
+			);
+			path = "youtube-onedaybuild";
+			sourceTree = "<group>";
+		};
+		E18AA2A124D744520032D69B /* View Conrtrollers */ = {
+			isa = PBXGroup;
+			children = (
+				E18AA28724D6EEF10032D69B /* ViewController.swift */,
+			);
+			path = "View Conrtrollers";
+			sourceTree = "<group>";
+		};
+		E18AA2A224D7445C0032D69B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E18AA29F24D744460032D69B /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E18AA2A324D744620032D69B /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				E18AA29924D6FD3F0032D69B /* Video.swift */,
 				E18AA29B24D6FD7E0032D69B /* Model.swift */,
 				E18AA29D24D7122A0032D69B /* Response.swift */,
 			);
-			path = "youtube-onedaybuild";
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E18AA2A424D744830032D69B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E18AA29724D6FB320032D69B /* Constants.swift */,
+				E1DC288024D84A5A00EDE7C1 /* CacheManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +189,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E18AA28824D6EEF10032D69B /* ViewController.swift in Sources */,
+				E1DC288124D84A5A00EDE7C1 /* CacheManager.swift in Sources */,
 				E18AA28424D6EEF10032D69B /* AppDelegate.swift in Sources */,
 				E18AA28624D6EEF10032D69B /* SceneDelegate.swift in Sources */,
 				E18AA29C24D6FD7E0032D69B /* Model.swift in Sources */,
 				E18AA29824D6FB320032D69B /* Constants.swift in Sources */,
+				E18AA2A024D744460032D69B /* VideoTableViewCell.swift in Sources */,
 				E18AA29A24D6FD3F0032D69B /* Video.swift in Sources */,
 				E18AA29E24D7122A0032D69B /* Response.swift in Sources */,
 			);
